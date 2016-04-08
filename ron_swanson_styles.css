@@ -1,0 +1,50 @@
+body {
+  background: url("swanson.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.content {
+  width:35%;
+  margin-left: 50%;
+}
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.quote_body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.credit {
+  font-size: 16px;
+  color: gray;
+  font-style: italic;
+}
+#new_quote {
+  background: cornflowerblue;
+}
+.share_buttons {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+
+  .content {
+    width: 45%;
+    margin-left: 50%;
+  }
+
+}
+@media screen and (max-width: 1155px) {
+
+  body {
+    background: url("swanson_1280.jpg");
+  }
+
+}
